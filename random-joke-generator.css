@@ -1,0 +1,59 @@
+/* Connect css with google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300;1,400;1,500&display=swap');
+
+/* Remove padding and margin from webpage */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body background and font family */
+body{
+    background-color: #fab22e;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Random joke generator container */
+.container-random-joke-generator{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-joke-generator-container{
+    width: 80%;
+    padding: 50px 40px;
+    background-color: #15161a;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Random joke image */
+.random-joke-generator-container img{
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+/* Random joke txt */
+.random-joke-generator-container h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Random joke btn */
+.random-joke-generator-container button{
+    padding: 10px 23px;
+    background-color: #fab22e;
+    border: none;
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
